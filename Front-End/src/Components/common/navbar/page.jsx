@@ -7,7 +7,7 @@ import LanguageToggle from "./langSelection";
 import { useTranslation } from "react-i18next";
 import { useSearchParams, usePathname } from "next/navigation";
 import Image from "next/image";
-import logo from "../../../../public/assets/logo-Go.svg";
+import logo from "../../../../public/assets/logo-GO.svg";
 
 import { PiUserPlusFill, PiUser, PiX,  } from "react-icons/pi";
 import useAuth from "@/Hooks/useAuth";
