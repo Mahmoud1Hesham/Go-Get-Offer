@@ -13,7 +13,7 @@ const JoinUsCard = () => {
     const lang = searchParams.get('lang') || i18n.language || 'en';
 
     return (
-        <section className="relative">
+        <section id='join-us' className="relative">
             <Image src={joinCard} width={2000} height={300} alt="join us card" />
             <div className="content absolute top-1/2 right-1/2 flex flex-col gap-1 md:gap-3 items-center justify-center transform translate-x-1/2 -translate-y-1/2 w-[90%]">
 

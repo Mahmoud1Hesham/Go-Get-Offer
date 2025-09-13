@@ -65,7 +65,8 @@ const Features = ({ personType }) => {
     };
 
     return (
-        <section className={`relative py-20 ${lang === 'ar' ? 'font-hacen' : ''}`}>
+        <section id='features'
+            className={`relative py-20 ${lang === 'ar' ? 'font-hacen' : ''}`}>
             {/* Background */}
             <div className="absolute inset-0 -z-10">
                 <picture aria-hidden>

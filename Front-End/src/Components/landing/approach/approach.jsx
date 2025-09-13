@@ -22,7 +22,7 @@ const Approach = () => {
     const lang = searchParams.get("lang") || i18n.language || "en";
 
     return (
-        <section
+        <section id="about"
             className="w-full bg-go-background-e"
             aria-labelledby="approach-title"
         >

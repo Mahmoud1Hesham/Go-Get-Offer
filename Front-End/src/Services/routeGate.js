@@ -16,6 +16,7 @@ export const routeGate = {
         "/verify-otp",
         '/forget-password',
         '/reset-password',
+        '/contact-us'
     ],
 
     prefixes: [

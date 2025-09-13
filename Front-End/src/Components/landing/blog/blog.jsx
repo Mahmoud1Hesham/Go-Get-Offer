@@ -83,7 +83,7 @@ function Blog() {
 
   return (
     <main>
-      <section className="py-12 bg-go-background-gr px-4 md:px-0">
+      <section id='blog' className="py-12 bg-go-background-gr px-4 md:px-0">
         <div className="container mx-auto">
           {/* Header */}
           <header className="mb-5 flex flex-col items-center justify-center lg:block">
